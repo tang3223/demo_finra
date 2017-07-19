@@ -4,10 +4,6 @@ Finra demo file upload
 ----------------------------------------------------------------------------------------------------
 * The first part is main application
 ----------------------------------------------------------------------------------------------------
-package com.example.demo;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /*
 * Version 0.1.0
@@ -27,19 +23,6 @@ public class DemoApplication {
 ---------------------------------------------------------------------------------------------------
 * This part is the fileUploadController
 ---------------------------------------------------------------------------------------------------
-package com.example.demo;
-
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.util.Properties;
-
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.multipart.MultipartFile;
 
 /*
 * Version 0.1.0
